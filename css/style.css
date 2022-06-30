@@ -1,0 +1,65 @@
+body{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-family: "Agency FB", serif;
+}
+
+header{
+    background-color: gainsboro;
+    width: 100%;
+    padding: 0.8rem;
+}
+/**** Formulaire ****/
+
+button{
+    margin: 2rem;
+    padding: .8rem 1.2rem;
+    border: none;
+    border-radius: .4rem;
+    cursor: pointer;
+}
+button:hover{
+    background-color: gainsboro;
+}
+
+
+input{
+    text-align: center;
+    border-radius: 0.5rem;
+    padding: 0.2rem;
+}
+
+
+/**** Tableau ****/
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+    text-align: center;
+
+}
+thead tr {
+    background-color: #6f93ff ;
+    color: #ffffff ;
+}
+
+th, td{
+    border:1px solid black;
+    padding: 10px;
+    vertical-align: top;
+}
+
+img{
+    width: 50%;
+    height: 100%;
+}
+
+.trash{
+    width: 50%;
+    margin-top: 1rem;
+}
+
+.trash:hover{
+    cursor: pointer;
+}

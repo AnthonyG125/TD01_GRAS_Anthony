@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <meta charset="UTF-8">
+    <title>TP 01 - CheapShark</title>
+</head>
+<body>
+<header>
+    <a href="https://apidocs.cheapshark.com/">Api</a>
+    <h1>API - CheapShark</h1>
+    <p>Entrez le titre d'un jeux pour savoir son prix</p>
+</header>
+
+
+    <!-- Recherche  -->
+<label>
+    <input type="text" class="rechercher">
+</label>
+<button class="search">Rechercher</button>
+
+    <!-- Resultat de la recherche -->
+    <div class="resultat">
+        <table>
+            <thead>
+                <tr>
+                    <th>Aperçu</th>
+                    <th>Nom</th>
+                    <th>Price</th>
+                    <th>Lien</th>
+                    <th>Supprimer</th>
+                </tr>
+            </thead>
+            <tbody class="game">
+
+            </tbody>
+        </table>
+
+    </div>
+
+</body>
+<script src="js/jquery-3.6.0.min.js"></script>
+<script src="js/script.js"></script>
+</html>
